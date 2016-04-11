@@ -12,6 +12,11 @@ function inverso() {
   var num = document.getElementById("n1");
   num.value = 1/num.value;
 }
+
+function cubo() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 3);
+}
 function sqrt() {
   var num = document.getElementById("n1");
   num.value = Math.sqrt(num.value);
@@ -24,6 +29,7 @@ function sqrt() {
 
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
   <button onclick="inverso()"> 1/x </button>
+  <button onclick="cubo()"> x<sup>3</sup> </button>
   <button onclick="sqrt()"> sqrt(x) </button>
   
 </body>
